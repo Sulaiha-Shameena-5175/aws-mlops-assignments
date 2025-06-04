@@ -8,7 +8,7 @@ def list_files():
 
     prefix = 'home/sulaiha.shameena/'
 
-    session = boto3.Session(profile_name='pe-mle-user-role')
+    session = boto3.Session()
     s3 = session.client('s3')
 
     list_obj = s3.list_objects_v2(Bucket = 'tiger-mle-pg', Prefix = prefix, Delimiter='/')
