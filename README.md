@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [Output](#Output)
 
 ## Introduction
 
@@ -38,3 +39,8 @@ To set up the project locally, follow these steps:
 4. Run the application: 
    flask run --port=8085 --host=0.0.0.0
 
+## Output
+
+The below images display an api call to S3 was successful and display the files and folders with in the bucket.
+
+![output](/assets/images/output.png)
